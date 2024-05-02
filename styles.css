@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+  }
+  body{
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .title {
+      color:#FFFFFF;
+    }
+    .opt{
+      list-style: none;
+      width: 100%;
+      display: flex;
+      text-align: right;
+      padding:10px 0;
+    }
+    .opt li{
+      display:inline-block;
+      margin: 10px 20px;
+      
+    }
+    .column{
+      float: right;
+      width: 200px;
+      padding:1px;
+      height:300px;
+    }
+    .row{
+      float: left;
+     width: 300px;
+      padding:1px;
+      height:300px;
+    }
+    /.info-block{/
+    /* display:flex; */
+    /*} */
+    /.info-block form{/
+    /*  border-radius:5px ;*/
+    /*  padding 20px;*/
+    /*  margin-top: 30px;*/
+      
+    /}/
+    input{
+      border: none;
+    }
+    select{
+      border: none;
+      color:grey;
+    }
+    .company{
+      padding:3px 65px 3px 0;
+    }
+    body{
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .title {
+      color:#FFFFFF;
+    }
+    .opt{
+      list-style: none;
+      width: 100%;
+      display: flex;
+      text-align: right;
+      padding:10px 0;
+    }
+    .opt li{
+      display:inline-block;
+      color:white;
+      margin: 10px 20px;
+      
+    }
+    /.info-block{/
+    /* display:flex; */
+    /*} */
+    /.info-block form{/
+    /*  border-radius:5px ;*/
+    /*  padding 20px;*/
+    /*  margin-top: 30px;*/
+      
+    /}/
+    input{
+      border: none;
+    }
+    select{
+      border: none;
+      color:grey;
+    }
+    .company{
+      padding:3px 65px 3px 0;
+    }
+    .button{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .button2{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 3px 65px 3px 0;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .image
+    {
+      width:100px;
+      height:20px;
+    }
+  
+  .main {
+      width: 50%;
+  }
+  
+  .bg-title{
+      background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");
+      background-size:100%;
+      
+      padding: 30px;
+  }
+  
+  
+  hr{
+      margin-top:10px  ;
+  }
+  
+  
+  i{
+      color: #FFFFFF;
+      padding-left: 20px ;
+  }
+  .button{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .button2{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 3px 65px 3px 0;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .image
+    {
+      width:10px;
+      height:20px;
+    }
+  
+  .main {
+      width: 50%;
+  }
+  
+  /.bg-title{/
+  /*    background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");*/
+  /*    background-size:cover;*/
+      
+  /*    padding: 20px;*/
+  /}/
+  
+  
+  hr{
+      margin-top:10px  ;
+  }
+  
+  
+  i{
+      color: #FFFFFF;
+      padding-left: 20px ;
+  }
