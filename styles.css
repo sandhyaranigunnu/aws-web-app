@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
     color:white;
   }
   body{
@@ -14,11 +13,33 @@
     .title {
       color:#FFFFFF;
     }
+    .logo{
+      width: 220px;
+    }
+    .date {
+      img {
+        width: 20px;
+        background: transparent;
+        margin-right: 5px;
+      }
+      p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      button{
+        background: transparent;
+        padding: 10px 20px;
+        border: 2px solid #fff;
+        outline: none;
+        border-radius: 15px;
+        font-weight: 600;
+      }
+    }
     .opt{
       list-style: none;
       width: 100%;
       display: flex;
-      text-align: right;
+      /* text-align: right; */
       padding:10px 0;
     }
     .opt li{
@@ -26,36 +47,39 @@
       margin: 10px 20px;
       
     }
-    .column{
-      float: right;
-      width: 200px;
-      padding:1px;
-      height:300px;
+    .info-block{
+     display:flex;
+     padding: 20px;
+     p{
+      font-size: 14px;
+      font-weight: 300;
+     }
+    } 
+    .info-block form{
+      border-radius:5px ;
+      padding: 20px;
+      margin-top: 30px;
+      h3{
+        color: #FFA500;
+      }
     }
-    .row{
-      float: left;
-     width: 800px;
-      padding:1px;
-      height:300px;
-    }
-    /* .info-block{
-    display:flex; 
-    }
-    /.info-block form{/ */
-    /*  border-radius:5px ;*/
-    /*  padding 20px;*/
-    /*  margin-top: 30px; }*/
-      
-
     input{
       border: none;
+      padding: 10px;
+      background: transparent;
+      outline: none;
+      margin: 5px 0;
     }
     select{
       border: none;
       color:grey;
     }
     .company{
-      padding:3px 65px 3px 0;
+      background: transparent;
+      outline: none;
+      width: 100%;
+      margin: 5px 0;
+      padding-left: 5px;
     }
     body{
       padding: 25px;
@@ -70,7 +94,7 @@
       list-style: none;
       width: 100%;
       display: flex;
-      text-align: right;
+      /* text-align: right; */
       padding:10px 0;
     }
     .opt li{
@@ -79,15 +103,18 @@
       margin: 10px 20px;
       
     }
-    /.info-block{/
-    /* display:flex; */
-    /*} */
-    /.info-block form{/
-    /*  border-radius:5px ;*/
-    /*  padding 20px;*/
-    /*  margin-top: 30px;*/
+    .info-block{
+     display:flex; 
+     h4 {
+      margin-bottom: 20px ;
+     }
+    } 
+    .info-block form{
+      border-radius:5px ;
+      padding: 20px;
+      margin-top: 30px;
       
-    /}/
+    }
     input{
       border: none;
     }
@@ -95,10 +122,8 @@
       border: none;
       color:grey;
     }
-    .company{
-      padding:3px 65px 3px 0;
-    }
- .button{
+    
+    .button{
       background-color:#FFA500;
       color:#FFFFFF;
       border: none;
@@ -106,7 +131,61 @@
       border-radius: 5px;
       margin-top: 20px;
     }
-.button2{
+    .button2{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 3px 65px 3px 0;
+      border-radius: 25px !important;
+      margin-top: 20px;
+      text-align: center;
+      padding-left: 25% !important;
+      button{
+        background: transparent;
+        color: #FFF;
+        outline: none;
+        border: none;
+    padding: 10px;
+      }
+    }
+    .image
+    {
+      width:10px;
+      height:20px;
+    }
+  
+  .main {
+      width: 55%;
+      background-color: #0e1111;
+      padding: 20px;
+  }
+  
+  .bg-title{
+      background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");
+      background-size:cover;
+      
+      padding: 20px;
+  }
+  
+  
+  hr{
+      margin-top:10px  ;
+  }
+  
+  
+  i{
+      color: #FFFFFF;
+      padding-left: 20px ;
+  }
+  .button{
+      background-color:#FFA500;
+      color:#FFFFFF;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .button2{
       background-color:#FFA500;
       color:#FFFFFF;
       border: none;
@@ -116,37 +195,18 @@
     }
     .image
     {
-      width:100px;
+      width:10px;
       height:20px;
     }
   
-  
-  hr{
-      margin-top:10px  ;
-  }
-  
-  
-  i{
-      color: #FFFFFF;
-      padding-left: 20px ;
-  }
  
-    .image
-    {
-      width:100px;
-      height:30px;
-    }
   
-  .main {
-      width: 50%;
-  }
-  
-  /.bg-title{/
-  /*    background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");*/
-  /*    background-size:cover;*/
+  .bg-title{
+      background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");
+      background-size:cover;
       
-  /*    padding: 20px;*/
-  /}/
+      padding: 20px;
+  }
   
   
   hr{
@@ -158,3 +218,29 @@
       color: #FFFFFF;
       padding-left: 20px ;
   }
+
+  label {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.check {
+  margin-top: 20px;
+}
+
+.unsub{
+  margin-top: 20px;
+  font-size: 12px !important;
+}
+
+.high{
+  color: #FFA500;
+  font-weight: 500 !important;
+}
+
+select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
