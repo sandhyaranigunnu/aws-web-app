@@ -34,19 +34,11 @@
     }
     .row{
       float: left;
-     width: 300px;
+     width: 900px;
       padding:1px;
       height:300px;
     }
-    /.info-block{/
-    /* display:flex; */
-    /*} */
-    /.info-block form{/
-    /*  border-radius:5px ;*/
-    /*  padding 20px;*/
-    /*  margin-top: 30px;*/
-      
-    /}/
+   
     input{
       border: none;
     }
@@ -79,15 +71,7 @@
       margin: 10px 20px;
       
     }
-    /.info-block{/
-    /* display:flex; */
-    /*} */
-    /.info-block form{/
-    /*  border-radius:5px ;*/
-    /*  padding 20px;*/
-    /*  margin-top: 30px;*/
-      
-    /}/
+   
     input{
       border: none;
     }
@@ -141,40 +125,13 @@
       color: #FFFFFF;
       padding-left: 20px ;
   }
-  .button{
-      background-color:#FFA500;
-      color:#FFFFFF;
-      border: none;
-      padding: 10px;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-    .button2{
-      background-color:#FFA500;
-      color:#FFFFFF;
-      border: none;
-      padding: 3px 65px 3px 0;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
+  
     .image
     {
       width:10px;
       height:20px;
     }
-  
-  .main {
-      width: 50%;
-  }
-  
-  /.bg-title{/
-  /*    background-image: url("https://www.sentinelone.com/wp-content/uploads/2023/12/AWS-reInvent-2023-Its-a-Wrap-But-Lets-Keep-Talking-Cloud-Security-2.jpg");*/
-  /*    background-size:cover;*/
-      
-  /*    padding: 20px;*/
-  /}/
-  
-  
+   
   hr{
       margin-top:10px  ;
   }
